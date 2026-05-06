@@ -66,7 +66,8 @@ src="https://www.facebook.com/tr?id=2608749199544480&ev=PageView&noscript=1"
 
         <div id="counterContainer">
             <div id="counterWrapper">
-                <img src="images/live-icon.png" class="live-icon" alt="Live Viewers">
+                <!-- ✅ CORRIGIDO: substituído live-icon.png (arquivo ausente) por emoji -->
+                <span style="font-size: 18px; line-height: 1;">👁️</span>
                 <span id="viewsCount">71,712</span>
                 <span style="color: black;">people watching now</span>
             </div>
@@ -180,12 +181,8 @@ src="https://www.facebook.com/tr?id=2608749199544480&ev=PageView&noscript=1"
       defer
     ></script>
 
-    <!-- ============================================================
-         CAMADA 3 — script.js com defer
-         Baixa em paralelo com o VTurb (que tem prioridade absoluta via preload)
-         Executa só depois do HTML parseado → não bloqueia o render inicial
-         ============================================================ -->
     <script src="script.js" defer></script>
 
 </body>
 </html>
+
