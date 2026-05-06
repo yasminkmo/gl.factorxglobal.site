@@ -10,9 +10,9 @@ const CONFIG = {
     // 🔗 Links de Checkout dos Botões
     // Tracking (UTMs, subid, fbclid etc.) é responsabilidade do UTMify — ele
     // reescreve os hrefs automaticamente no carregamento da página.
-    linkPote2: "https://pandastyle.life/b?p=GLP2V1&nc=1&preview=1&b=132&fid=358&fnid=2&pfnid=1&pg=9314&template=2b&aff_id=",
-    linkPote6: "https://pandastyle.life/b?p=GLP6V1&nc=1&preview=1&b=132&fid=358&fnid=2&pfnid=1&pg=9314&template=6b&aff_id=",
-    linkPote3: "https://pandastyle.life/b?p=GLP3V1&nc=1&preview=1&b=132&fid=358&fnid=2&pfnid=1&pg=9314&template=3b&aff_id="
+    linkPote2: "https://pandastyle.life/b?p=GLP2V1&nc=1&preview=1&b=132&fid=358&fnid=2&pfnid=1&pg=9314&template=2b&aff_id=241183",
+    linkPote6: "https://pandastyle.life/b?p=GLP6V1&nc=1&preview=1&b=132&fid=358&fnid=2&pfnid=1&pg=9314&template=6b&aff_id=241183",
+    linkPote3: "https://pandastyle.life/b?p=GLP3V1&nc=1&preview=1&b=132&fid=358&fnid=2&pfnid=1&pg=9314&template=3b&aff_id=241183"
 };
 
 // =====================================================================
