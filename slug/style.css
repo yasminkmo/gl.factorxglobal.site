@@ -103,7 +103,7 @@
 
 /* =========================================
     POP-UP DE COMPRA
-    ✅ CORRIGIDO: adicionado visibility:hidden e pointer-events:none
+    ✅ CORRIGIDO: visibility:hidden e pointer-events:none
     para o popup não aparecer vazio antes do JS preencher os dados
     ========================================= */
 .notification-popup {
@@ -118,22 +118,22 @@
     padding: 10px;
     z-index: 1000;
     opacity: 0;
-    visibility: hidden;        /* ✅ CORRIGIDO: esconde completamente */
-    pointer-events: none;      /* ✅ CORRIGIDO: evita cliques acidentais */
+    visibility: hidden;
+    pointer-events: none;
     transition: opacity 0.5s, bottom 0.5s, visibility 0.5s;
 }
 
 .notification-popup.show {
     opacity: 1;
     bottom: 40px;
-    visibility: visible;       /* ✅ CORRIGIDO: torna visível apenas com dados */
+    visibility: visible;
     pointer-events: auto;
 }
 
 .notification-popup.hide {
     opacity: 0;
     bottom: 20px;
-    visibility: hidden;        /* ✅ CORRIGIDO: esconde ao sair */
+    visibility: hidden;
     pointer-events: none;
 }
 
@@ -159,4 +159,3 @@
     .notification-popup { left: 0; right: 0; bottom: 0; margin-left: auto; margin-right: auto; width: 90%; justify-content: center; }
     .guarantee-title-bg h2 { font-size: 16px; }
 }
-
