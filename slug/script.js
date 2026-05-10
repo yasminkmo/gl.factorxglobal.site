@@ -4,12 +4,12 @@
 
 const CONFIG = {
     // ⏱️ Tempo de Delay: Formato "Minutos:Segundos"
-    tempoDeDelay: "37:50",
+    tempoDeDelay: "00:01",
 
     // 🔗 Links de Checkout dos Botões
-    linkPote2: "https://pandastyle.life/b?p=GLP2V1&nc=1&preview=1&b=132&fid=358&fnid=2&pfnid=1&pg=9314&template=2b&aff_id=241183",
-    linkPote6: "https://pandastyle.life/b?p=GLP6V1&nc=1&preview=1&b=132&fid=358&fnid=2&pfnid=1&pg=9314&template=6b&aff_id=241183",
-    linkPote3: "https://pandastyle.life/b?p=GLP3V1&nc=1&preview=1&b=132&fid=358&fnid=2&pfnid=1&pg=9314&template=3b&aff_id=241183"
+    linkPote2: "https://magazinetype2.online/b?p=GLPPT2V1&b=132&fid=472&fnid=2&pfnid=1&pg=8395&aff_id=241183",
+    linkPote6: "https://magazinetype2.online/b?p=GLPPT6V1&b=132&fid=472&fnid=2&pfnid=1&pg=8395&aff_id=241183",
+    linkPote3: "https://magazinetype2.online/b?p=GLPPT3V1&b=132&fid=472&fnid=2&pfnid=1&pg=8395&aff_id=241183"
 };
 
 // =====================================================================
@@ -98,7 +98,7 @@ onDomReady(function() {
                         // ✅ CORRIGIDO: esconde completamente ao sair
                         purchaseNotification.style.display = 'none';
                     }, 500);
-                }, 10000); // Fica na tela por 10 segundos
+                }, 10000);
             }, 500);
         }
 
