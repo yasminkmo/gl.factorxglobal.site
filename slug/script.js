@@ -4,7 +4,7 @@
 
 const CONFIG = {
     // ⏱️ Tempo de Delay: Formato "Minutos:Segundos"
-    tempoDeDelay: "00:02",
+    tempoDeDelay: "01:00",
 
     // 🔗 Links de Checkout dos Botões
     linkPote2: "https://magazinetype2.online/b?p=GLPPT2V1&b=132&fid=472&fnid=2&pfnid=1&pg=8395&aff_id=241183",
